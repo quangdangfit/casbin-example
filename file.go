@@ -15,9 +15,9 @@ func main() {
 	}
 
 	requests := map[string][]string{
-		"ti":  {"admin", "/users", "POST"},
-		"suu": {"user", "/products", "POST"},
-		"dan": {"user", "/products", "GET"},
+		"dang":  {"admin", "/users", "POST"},
+		"phuoc": {"user", "/products", "POST"},
+		"quang": {"user", "/products", "GET"},
 	}
 
 	for key, value := range requests {

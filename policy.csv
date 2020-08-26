@@ -1,0 +1,6 @@
+p, admin, /users, POST
+p, admin, /roles, POST
+p, admin, /products, POST
+
+p, user, /products, GET
+p, user, /categories, GET
